@@ -1,0 +1,21 @@
+.container {
+  z-index: 100;
+  .toolbar {
+    :global {
+      .w-e-toolbar {
+        border-radius: 4px 4px 0 0;
+        background-color: #f7f8fa;
+      }
+    }
+  }
+  .editor {
+    height: 500px;
+    overflow-y: hidden;
+    :global {
+      .w-e-text-container {
+        border-radius: 0 0 4px 4px;
+        background-color: #f7f8fa;
+      }
+    }
+  }
+}
